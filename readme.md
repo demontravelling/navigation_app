@@ -11,17 +11,17 @@
 ## 使用过程：
 ## （可跳过）建图
 ### 过程现启动 gmapping才能点击建图按钮，这是个未解决问题，开源的gmapping结点无法进行控制，但可以观察建图过程：
-![](pic/create.png)
+![](https://github.com/demontravelling/navigation_app/tree/master/pic/create.png)
 ## 加载
 ### 点击加载图片后，界面会显示地图，但同时需要用map_server进行加载
 ## 手动定位
 ### 使用了开源的蒙特卡洛定位算法，在加载地图后，需要告诉机器人所在位置和姿态：
-![](pic/locate1.png)
-![](pic/locate2.png)
+![](https://github.com/demontravelling/navigation_app/tree/master/pic/locate1.png)
+![](https://github.com/demontravelling/navigation_app/tree/master/pic/locate2.png)
 
 ## 导航
 ### 点击地图上的位置进行导航
-![](pic/nav.png)
+![](https://github.com/demontravelling/navigation_app/tree/master/pic/nav.png)
 
 ## 总结
 ### 在建图时候订阅/map消息，随后按消息的数据绘制地图。在非建图时期，用图片替代消息数据，地图的绘制效率会高许多。
